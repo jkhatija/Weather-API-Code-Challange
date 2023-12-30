@@ -83,7 +83,7 @@ To deploy the API to AWS, use the following steps:
 # ScreenShots:
 
 ### To Fetch all raw data 
-![1](./screenshots/imagee.png)
+![1](./screenshots/img.png)
 
 ### To fetch data based on stationID and Date
 ![2](./screenshots/img_1.png)
