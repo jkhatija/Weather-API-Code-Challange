@@ -71,10 +71,10 @@ to explore and test API documentation.
 
 To deploy the API to AWS, use the following steps:
 
-    - Create a Python project with a app.py file containing the FastAPI application code.
+    - Create a Python project with a app.py file containing the application code.
     - Create a new AWS Lambda function and configure its runtime to use Python 3.8 or later.
     - Package your Python code and any dependencies as a ZIP file and upload it to AWS Lambda.
-    - Set the handler function in your Lambda function to the name of your FastAPI application function.
+    - Set the handler function in your Lambda function to the name of application function.
     - Create an API Gateway , REST API or HTTP API that integrates with your Lambda function.
     - Deploy respective APIs to a publicly accessible endpoint.
     - RDS can be used to store the ingested data
@@ -83,23 +83,16 @@ To deploy the API to AWS, use the following steps:
 # ScreenShots:
 
 ### To Fetch all raw data 
-![](./screenshots/imagee.png)
+![1](./screenshots/imagee.png)
 
 ### To fetch data based on stationID and Date
-![](./screenshots/img_1.png)
+![2](./screenshots/img_1.png)
 
 ### To fetch data based on stationID only
-![](./screenshots/img_2.png)
+![3](./screenshots/img_2.png)
 
 ### To fetch all calculated data
-![](./screenshots/img_3.png)
+![4](./screenshots/img_3.png)
 
 ### To fetch data based on stationID and Year on calculated data
-![](./screenshots/img_4.png)
-
-
-
-
-## Conclusion
-    - This was one of the ways to implement these weather APIs using fastAPI. Scalability and security features can be
-        managed in deployment strategies over aws.
+![5](./screenshots/img_4.png)
